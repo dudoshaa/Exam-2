@@ -29,9 +29,13 @@ img {
 }
 
 body {
+  font-family: "Rubik";
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+main{
+  flex-grow: 1;
 }
 
 h1 {
@@ -43,6 +47,6 @@ h1 {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
