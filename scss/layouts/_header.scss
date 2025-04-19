@@ -116,4 +116,8 @@
 }
 .sitenav__item--link {
   color: #7f7f7f;
+
+  &:hover{
+    color: #7296ec;
+  }
 }
