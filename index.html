@@ -8,60 +8,64 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container container">
-        <div class="header__logos">
-          <img
-            class="header__logo"
-            src="./images/logo.svg"
-            alt=""
-            width="276"
-            height="45"
-          />
-          <ul class="header__list">
-            <li class="header__item"><span>$</span> 10137.2</li>
-            <li class="header__item"><span>P</span> 138.26</li>
-          </ul>
-        </div>
-        <div class="btns">
-          <input class="search__btn" type="text" placeholder="Поиск" />
-          <a class="header__translate" href=""><span>УЗ</span>РУ</a>
-          <a href="" class="header__btn">Войти</a>
+      <div class="header--nav">
+        <div class="header__container container">
+          <div class="header__logos">
+            <img
+              class="header__logo"
+              src="./images/logo.svg"
+              alt=""
+              width="276"
+              height="45"
+            />
+            <ul class="header__list">
+              <li class="header__item"><span>$</span> 10137.2</li>
+              <li class="header__item"><span>P</span> 138.26</li>
+            </ul>
+          </div>
+          <div class="btns">
+            <input class="search__btn" type="text" placeholder="Поиск" />
+            <a class="header__translate" href=""><span>УЗ</span>РУ</a>
+            <a href="" class="header__btn">Войти</a>
+          </div>
         </div>
       </div>
-      <nav class="site__nav__container container">
-        <ul class="sitenav__list">
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Главное</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Интересное</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Экономика</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Политика</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Общество</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Технологии</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Спорт</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Культура</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Происшествия</a>
-          </li>
-          <li class="sitenav__item">
-            <a href="#" class="sitenav__item--link">Наука</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="sienav">
+        <nav class="site__nav__container container">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Главное</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Интересное</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Экономика</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Политика</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Общество</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Технологии</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Спорт</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Культура</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Происшествия</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__item--link">Наука</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <aside class="page-ad container">
@@ -275,8 +279,8 @@
       </aside>
 
       <section class="world__news__grid">
-        <h2 class="world__news--title">В мире</h2>
         <div class="worlds__news__grid__container container">
+          <h2 class="world__news--title">В мире</h2>
           <article class="world__news__card">
             <img
               class="world__news__card--image"
@@ -307,6 +311,76 @@
                 />
                 <span class="channel-name"
                   >ИА Красная Весна<time datetime="12:25"> 12:25</time></span
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="world__news__card">
+            <img
+              class="world__news__card--image"
+              src="./images/markel.png"
+              alt=""
+              width="210"
+              height="165"
+            />
+            <div class="world__news__text__contant">
+              <h3 class="world__news__caption">
+                <a href="" class="world__news__caption--link"
+                  >В Германии выпустят ограниченную партию плюшевых мишек в
+                  образе Меркель</a
+                >
+              </h3>
+              <p class="world__news__desc">
+                БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству
+                плюшевых игрушек в городе Кобург (федеральная земля Бавария)
+                изготовила уникального...
+              </p>
+              <div class="channel-info">
+                <img
+                  class="channel-image"
+                  src="./images/tacc.png"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <span class="channel-name"
+                  >ТАСС <time datetime="11:35"> 11:35</time></span
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="world__news__card">
+            <img
+              class="world__news__card--image"
+              src="./images/markel.png"
+              alt=""
+              width="210"
+              height="165"
+            />
+            <div class="world__news__text__contant">
+              <h3 class="world__news__caption">
+                <a href="" class="world__news__caption--link"
+                  >В Германии выпустят ограниченную партию плюшевых мишек в
+                  образе Меркель</a
+                >
+              </h3>
+              <p class="world__news__desc">
+                БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству
+                плюшевых игрушек в городе Кобург (федеральная земля Бавария)
+                изготовила уникального...
+              </p>
+              <div class="channel-info">
+                <img
+                  class="channel-image"
+                  src="./images/tacc.png"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <span class="channel-name"
+                  >ТАСС <time datetime="11:35"> 11:35</time></span
                 >
               </div>
             </div>

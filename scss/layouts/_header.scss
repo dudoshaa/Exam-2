@@ -1,9 +1,13 @@
 .header {
+ 
+}
+.header--nav{
+   background-color: #f6f6f6;
 }
 .header__container {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #f6f6f6;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,14 +96,14 @@
 }
 
 .site__nav__container {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 .container {
 }
 .sitenav__list {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
 }
 .sitenav__item {
   font-family: Rubik;

@@ -123,11 +123,8 @@
 }
 
 .world__news__grid {
- 
 }
 .worlds__news__grid__container {
-  background-color: #f6f6f6;
-  border-radius: 1.5rem;
 }
 .container {
 }
@@ -139,11 +136,16 @@
   margin-bottom: 2rem;
 }
 .world__news__card {
+  background-color: #f6f6f6;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   gap: 1.5rem;
   padding-top: 2rem;
+  padding-right: 2rem;
   padding-bottom: 2rem;
+  padding-left: 1.7rem;
+  margin-bottom: 1rem;
 }
 .world__news__card--image {
   border-radius: 1rem;
